@@ -5,11 +5,13 @@ namespace Tyuiu.KulkoDA.Sprint3.Task1.V30.Lib
     {
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
+            double t = value;
+            double k = startValue;
             double sum = 0;
-            while (startValue <= stopValue)
+            while (k <= stopValue)
             {
-                sum += (Math.Pow(value, startValue) + 5 / (startValue + 4)) * Math.Sin(value);
-                startValue++;
+                sum = sum + (Math.Pow(t,k)+ 5/(k+4))*Math.Sin(t);
+                k++;
             }
             return Math.Round(sum,3);
         }
