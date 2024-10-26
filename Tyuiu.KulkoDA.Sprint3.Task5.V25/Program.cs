@@ -37,6 +37,7 @@ namespace Tyuiu.KulkoDA.Sprint3.Task5.V25
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.GetSumSumSeries(x,i,k,v,z));
             Console.ReadLine();
+            //
         }
     }
 }
