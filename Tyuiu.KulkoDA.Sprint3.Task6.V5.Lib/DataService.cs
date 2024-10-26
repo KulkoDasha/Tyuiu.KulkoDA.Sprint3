@@ -10,7 +10,7 @@ namespace Tyuiu.KulkoDA.Sprint3.Task6.V5.Lib
             int sum = 0;
             for (x = startValue; x <= stopValue; x++)
             {
-                for( int d=1; d<x; d++)
+                for( int d=1; d<=x; d++)
                 {
                     if (x%d==0)
                     {

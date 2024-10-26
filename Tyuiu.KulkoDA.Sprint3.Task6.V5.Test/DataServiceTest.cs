@@ -11,7 +11,7 @@ namespace Tyuiu.KulkoDA.Sprint3.Task6.V5.Test
             int i = 15;
             int k = 22;
             var res = ds.GetSumTheDivisors(i,k);
-            Assert.AreEqual(,res);
+            Assert.AreEqual(242,res);
         }
     }
 }
